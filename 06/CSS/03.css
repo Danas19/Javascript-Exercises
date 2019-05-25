@@ -1,0 +1,27 @@
+.container {
+    width: 250px;
+    margin: 0px;
+}
+
+#info {
+    overflow: auto;
+    white-space:nowrap;
+}
+
+label {
+    color: grey;
+    margin-right: 1em;
+}
+
+label, #name, #location {
+    text-transform: capitalize;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.fas {
+    color: orange;
+}

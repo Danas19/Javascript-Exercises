@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/3_css.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h3>E-Bank</h3>
+            <label for="text-field">Action: </label>
+            <input type="text" id="text-field">
+            <select name="options" id="action-type">
+                <option value="add">Add Money</option>
+                <option value="take">Take Money</option>
+            </select>
+            <p id="current-money-text"></p>
+            <button>Perform action</button>
+        </form>
+    </div>
+
+    <button id="delete-storage">Delete Local Storage</button>
+    <br>
+
+    <label for="history-filter-input">Show History with sums of money bigger than or equal to: </label>
+    <input id="history-filter-input" type="text">
+    <button id="show-history">Show history</button>
+    <div id="history-table-div">
+        <table id="history-table"></table>
+    </div>
+    
+
+    <script src="3_js.js"></script>
+</body>
+
+</html>

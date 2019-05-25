@@ -1,0 +1,18 @@
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 50%;
+}
+
+td {
+    color: white;
+    font-size: 2em;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+td:hover {
+    opacity: 0.6;
+}

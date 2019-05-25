@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/2_css.css">
+</head>
+
+<body>
+    <form>
+        <h3>Generator</h3>
+
+        <label for="inputPerformer">Performer: </label><br>
+        <input type="text" id="inputPerformer">
+        <br>
+
+        <label for="inputAction">Action: </label><br>
+        <input type="text" id="inputAction">
+        <br>
+
+        <label for="inputDocument">Text Document: </label><br>
+        <input type="text" id="inputDocument">
+        <br>
+
+        <button>Save to Local Storage</button>
+    </form>
+
+    <div id="generator">
+        <button id="generate">Generate</button>
+        <button id="hide">Hide</button>
+        <div>
+            <p id="randomSentence">
+            
+        </p>
+        </div>
+        
+    </div>
+
+    <button id="delete-storage">Delete Storage</button>
+
+    <script src="2_js.js"></script>
+</body>
+
+</html>
